@@ -1,0 +1,173 @@
+00:10:13 **** Auto Build of configuration Debug for project appsrc ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../video_capture/video_capture.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"video_capture/video_capture.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"video_capture/video_capture.d" -MT"video_capture/video_capture.o" -o "video_capture/video_capture.o" "../video_capture/video_capture.c"
+'Finished building: ../video_capture/video_capture.c'
+' '
+'Building file: ../timer_ps/timer_ps.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"timer_ps/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"timer_ps/timer_ps.d" -MT"timer_ps/timer_ps.o" -o "timer_ps/timer_ps.o" "../timer_ps/timer_ps.c"
+'Finished building: ../timer_ps/timer_ps.c'
+' '
+'Building file: ../src/video_capture/video_capture.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_capture/video_capture.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_capture/video_capture.d" -MT"src/video_capture/video_capture.o" -o "src/video_capture/video_capture.o" "../src/video_capture/video_capture.c"
+'Finished building: ../src/video_capture/video_capture.c'
+' '
+'Building file: ../src/timer_ps/timer_ps.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps/timer_ps.d" -MT"src/timer_ps/timer_ps.o" -o "src/timer_ps/timer_ps.o" "../src/timer_ps/timer_ps.c"
+'Finished building: ../src/timer_ps/timer_ps.c'
+' '
+'Building file: ../src/intc/intc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+'Finished building: ../src/intc/intc.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/video_demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_demo.d" -MT"src/video_demo.o" -o "src/video_demo.o" "../src/video_demo.c"
+'Finished building: ../src/video_demo.c'
+' '
+'Building file: ../intc/intc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"intc/intc.d" -MT"intc/intc.o" -o "intc/intc.o" "../intc/intc.c"
+'Finished building: ../intc/intc.c'
+' '
+'Building file: ../dynclk/dynclk.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"dynclk/dynclk.d" -MT"dynclk/dynclk.o" -o "dynclk/dynclk.o" "../dynclk/dynclk.c"
+'Finished building: ../dynclk/dynclk.c'
+' '
+'Building file: ../display_ctrl/display_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"display_ctrl/display_ctrl.d" -MT"display_ctrl/display_ctrl.o" -o "display_ctrl/display_ctrl.o" "../display_ctrl/display_ctrl.c"
+'Finished building: ../display_ctrl/display_ctrl.c'
+' '
+'Building file: ../video_demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"video_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../appsrc_bsp/ps7_cortexa9_0/include -MMD -MP -MF"video_demo.d" -MT"video_demo.o" -o "video_demo.o" "../video_demo.c"
+'Finished building: ../video_demo.c'
+' '
+'Building target: appsrc.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../appsrc_bsp/ps7_cortexa9_0/lib -o "appsrc.elf"  ./video_capture/video_capture.o  ./timer_ps/timer_ps.o  ./src/video_capture/video_capture.o  ./src/timer_ps/timer_ps.o  ./src/intc/intc.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/video_demo.o  ./intc/intc.o  ./dynclk/dynclk.o  ./display_ctrl/display_ctrl.o  ./video_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/video_capture/video_capture.o: In function `VideoStop':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:125: multiple definition of `VideoStop'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:125: first defined here
+./src/video_capture/video_capture.o: In function `VideoStart':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:160: multiple definition of `VideoStart'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:160: first defined here
+./src/video_capture/video_capture.o: In function `VideoInitialize':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:248: multiple definition of `VideoInitialize'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:248: first defined here
+./src/video_capture/video_capture.o: In function `VideoChangeFrame':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:349: multiple definition of `VideoChangeFrame'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:349: first defined here
+./src/video_capture/video_capture.o: In function `VideoSetCallback':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:391: multiple definition of `VideoSetCallback'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:391: first defined here
+./src/video_capture/video_capture.o: In function `GpioIsr':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:397: multiple definition of `GpioIsr'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:397: first defined here
+./src/video_capture/video_capture.o: In function `VtcIsr':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_capture/video_capture.c:452: multiple definition of `VtcIsr'
+./video_capture/video_capture.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_capture/video_capture.c:452: first defined here
+./src/timer_ps/timer_ps.o: In function `TimerInitialize':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/timer_ps/timer_ps.c:59: multiple definition of `TimerInitialize'
+./timer_ps/timer_ps.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../timer_ps/timer_ps.c:59: first defined here
+./src/timer_ps/timer_ps.o: In function `TimerDelay':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/timer_ps/timer_ps.c:104: multiple definition of `TimerDelay'
+./timer_ps/timer_ps.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../timer_ps/timer_ps.c:104: first defined here
+./intc/intc.o: In function `fnInitInterruptController':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../intc/intc.c:58: multiple definition of `fnInitInterruptController'
+./src/intc/intc.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/intc/intc.c:58: first defined here
+./intc/intc.o: In function `fnEnableInterrupts':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../intc/intc.c:91: multiple definition of `fnEnableInterrupts'
+./src/intc/intc.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/intc/intc.c:91: first defined here
+./dynclk/dynclk.o: In function `ClkCountCalc':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:78: multiple definition of `ClkCountCalc'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:78: first defined here
+./dynclk/dynclk.o: In function `ClkDivider':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:91: multiple definition of `ClkDivider'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:91: first defined here
+./dynclk/dynclk.o: In function `ClkFindReg':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:119: multiple definition of `ClkFindReg'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:119: first defined here
+./dynclk/dynclk.o: In function `ClkWriteReg':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:146: multiple definition of `ClkWriteReg'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:146: first defined here
+./dynclk/dynclk.o: In function `ClkFindParams':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:162: multiple definition of `ClkFindParams'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:162: first defined here
+./dynclk/dynclk.o: In function `ClkStart':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:223: multiple definition of `ClkStart'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:223: first defined here
+./dynclk/dynclk.o: In function `ClkStop':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../dynclk/dynclk.c:231: multiple definition of `ClkStop'
+./src/dynclk/dynclk.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/dynclk/dynclk.c:231: first defined here
+./display_ctrl/display_ctrl.o: In function `DisplayStop':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../display_ctrl/display_ctrl.c:89: multiple definition of `DisplayStop'
+./src/display_ctrl/display_ctrl.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/display_ctrl/display_ctrl.c:89: first defined here
+./display_ctrl/display_ctrl.o: In function `DisplayStart':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../display_ctrl/display_ctrl.c:143: multiple definition of `DisplayStart'
+./src/display_ctrl/display_ctrl.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/display_ctrl/display_ctrl.c:143: first defined here
+./display_ctrl/display_ctrl.o: In function `DisplayInitialize':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../display_ctrl/display_ctrl.c:313: multiple definition of `DisplayInitialize'
+./src/display_ctrl/display_ctrl.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/display_ctrl/display_ctrl.c:313: first defined here
+./display_ctrl/display_ctrl.o: In function `DisplaySetMode':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../display_ctrl/display_ctrl.c:406: multiple definition of `DisplaySetMode'
+./src/display_ctrl/display_ctrl.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/display_ctrl/display_ctrl.c:406: first defined here
+./display_ctrl/display_ctrl.o: In function `DisplayChangeFrame':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../display_ctrl/display_ctrl.c:446: multiple definition of `DisplayChangeFrame'
+./src/display_ctrl/display_ctrl.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/display_ctrl/display_ctrl.c:446: first defined here
+./video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:77: multiple definition of `ivt'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:77: first defined here
+./video_demo.o: In function `main':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:87: multiple definition of `main'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:87: first defined here
+./video_demo.o: In function `DemoInitialize':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:97: multiple definition of `DemoInitialize'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:97: first defined here
+./video_demo.o: In function `DemoRun':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:178: multiple definition of `DemoRun'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:178: first defined here
+./video_demo.o: In function `DemoISR':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:654: multiple definition of `DemoISR'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:654: first defined here
+./video_demo.o: In function `DemoPrintTest':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:498: multiple definition of `DemoPrintTest'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:498: first defined here
+./video_demo.o: In function `DemoPrintMenu':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:277: multiple definition of `DemoPrintMenu'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:277: first defined here
+./video_demo.o: In function `DemoChangeRes':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:306: multiple definition of `DemoChangeRes'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:306: first defined here
+./video_demo.o: In function `DemoInvertFrame':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:404: multiple definition of `DemoInvertFrame'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:404: first defined here
+./video_demo.o: In function `DemoScaleFrame':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:429: multiple definition of `DemoScaleFrame'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:429: first defined here
+./video_demo.o: In function `DemoCRMenu':
+C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../video_demo.c:382: multiple definition of `DemoCRMenu'
+./src/video_demo.o:C:\vivado_labs\hdmi_project\hdmi_project.sdk\appsrc\Debug/../src/video_demo.c:382: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:51: appsrc.elf] Error 1
+
+00:10:20 Build Finished (took 7s.330ms)
+

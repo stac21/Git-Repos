@@ -1,0 +1,6 @@
+17:52:50 **** Build of project appsrc_bsp ****
+make -k all 
+make: *** No rule to make target 'all'.
+
+17:52:50 Build Finished (took 110ms)
+

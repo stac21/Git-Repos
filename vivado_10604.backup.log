@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  7 08:57:46 2021
+# Process ID: 10604
+# Current directory: C:/vivado_labs/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10460 C:\vivado_labs\final_project\final_project.xpr
+# Log file: C:/vivado_labs/final_project/vivado.log
+# Journal file: C:/vivado_labs/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivado_labs/final_project/final_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/vivado_labs/xilinx_proj/vivado_proj/zybo-z7-10-hdmi.ipdefs/vivado-library_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:01:00 . Memory (MB): peak = 740.848 ; gain = 181.414
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/vivado_labs/final_project/final_project.sdk -hwspec C:/vivado_labs/final_project/final_project.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/vivado_labs/final_project/final_project.sdk -hwspec C:/vivado_labs/final_project/final_project.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May  7 12:03:33 2021...

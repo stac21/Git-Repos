@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  7 08:57:46 2021
+# Process ID: 10604
+# Current directory: C:/vivado_labs/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10460 C:\vivado_labs\final_project\final_project.xpr
+# Log file: C:/vivado_labs/final_project/vivado.log
+# Journal file: C:/vivado_labs/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivado_labs/final_project/final_project.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/vivado_labs/final_project/final_project.sdk -hwspec C:/vivado_labs/final_project/final_project.sdk/design_1_wrapper.hdf
